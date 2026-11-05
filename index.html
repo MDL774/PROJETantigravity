@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LivrExpress – Livraison Rapide à Dakar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════ NAVBAR ═══════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">🚚</span>
+        <span class="logo-text">Livr<strong>Express</strong></span>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#how-it-works">Comment ça marche</a>
+        <a href="#pricing">Tarifs</a>
+        <a href="#testimonials">Avis</a>
+        <a href="#contact" class="btn btn-outline-nav">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-content" data-animate="fade-up">
+        <div class="hero-badge">🏙️ Dakar &amp; environs</div>
+        <h1 class="hero-title">
+          Vos livraisons,<br />
+          <span class="highlight">ultra-rapides</span> &amp; fiables
+        </h1>
+        <p class="hero-subtitle">
+          LivrExpress livre vos colis partout à Dakar en moins de 2 heures.
+          Simple, sécurisé et suivi en temps réel.
+        </p>
+        <div class="hero-actions">
+          <a href="#pricing" class="btn btn-primary btn-lg">
+            Commander une livraison
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#how-it-works" class="btn btn-ghost btn-lg">Voir comment ça marche</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-value">+5 000</span>
+            <span class="stat-label">Livraisons/mois</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-value">98%</span>
+            <span class="stat-label">Clients satisfaits</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-value">&lt; 2h</span>
+            <span class="stat-label">Délai moyen</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual" data-animate="fade-left">
+        <div class="phone-mockup">
+          <div class="phone-screen">
+            <div class="app-status">
+              <div class="status-dot"></div>
+              <span>En route · 12 min</span>
+            </div>
+            <div class="map-placeholder">
+              <div class="map-road"></div>
+              <div class="map-road map-road-2"></div>
+              <div class="truck-pin">🚚</div>
+              <div class="dest-pin">📍</div>
+            </div>
+            <div class="delivery-card">
+              <div class="delivery-icon">📦</div>
+              <div class="delivery-info">
+                <span class="delivery-name">Colis #DK-2847</span>
+                <span class="delivery-addr">Plateau, Dakar</span>
+              </div>
+              <div class="delivery-badge">En cours</div>
+            </div>
+          </div>
+        </div>
+        <div class="floating-card card-top">
+          <span>✅</span> Livré en 47 min !
+        </div>
+        <div class="floating-card card-bottom">
+          <span>⭐</span> 4.9 / 5 · 1 200 avis
+        </div>
+      </div>
+    </div>
+    <div class="wave-divider">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,0 C360,80 1080,0 1440,80 L1440,80 L0,80 Z" fill="#f0f6ff"/></svg>
+    </div>
+  </section>
+
+  <!-- ═══════════════ HOW IT WORKS ═══════════════ -->
+  <section class="section how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Simple &amp; rapide</span>
+        <h2 class="section-title">Comment ça marche ?</h2>
+        <p class="section-desc">En 3 étapes, votre colis est en route.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card" data-animate="fade-up" data-delay="0">
+          <div class="step-number">01</div>
+          <div class="step-icon-wrap">
+            <div class="step-icon">📱</div>
+          </div>
+          <h3>Passez commande</h3>
+          <p>Renseignez l'adresse de retrait et de livraison depuis notre application ou par WhatsApp.</p>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-card" data-animate="fade-up" data-delay="150">
+          <div class="step-number">02</div>
+          <div class="step-icon-wrap">
+            <div class="step-icon">🏍️</div>
+          </div>
+          <h3>Un coursier récupère</h3>
+          <p>Un de nos livreurs partenaires récupère votre colis dans les 15 minutes suivant la commande.</p>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-card" data-animate="fade-up" data-delay="300">
+          <div class="step-number">03</div>
+          <div class="step-icon-wrap">
+            <div class="step-icon">🎉</div>
+          </div>
+          <h3>Livraison garantie</h3>
+          <p>Votre destinataire reçoit le colis, vous recevez une confirmation et une signature électronique.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PRICING ═══════════════ -->
+  <section class="section pricing" id="pricing">
+    <div class="pricing-bg"></div>
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Nos offres</span>
+        <h2 class="section-title">Des tarifs transparents</h2>
+        <p class="section-desc">Choisissez la formule adaptée à vos besoins.</p>
+      </div>
+      <div class="pricing-grid">
+
+        <!-- STANDARD -->
+        <div class="pricing-card" data-animate="fade-up" data-delay="0">
+          <div class="plan-header">
+            <div class="plan-icon">📦</div>
+            <h3 class="plan-name">Standard</h3>
+            <p class="plan-desc">Pour vos envois ponctuels</p>
+          </div>
+          <div class="plan-price">
+            <span class="price-amount">1 500</span>
+            <span class="price-unit">FCFA / livraison</span>
+          </div>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> Livraison en 2–4 heures</li>
+            <li><span class="check">✓</span> Suivi en temps réel</li>
+            <li><span class="check">✓</span> Zone Dakar centre</li>
+            <li><span class="check">✓</span> Jusqu'à 5 kg</li>
+            <li class="inactive"><span class="cross">✗</span> Priorité livreur</li>
+            <li class="inactive"><span class="cross">✗</span> Support dédié</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-plan">Choisir Standard</a>
+        </div>
+
+        <!-- EXPRESS (popular) -->
+        <div class="pricing-card popular" data-animate="fade-up" data-delay="150">
+          <div class="popular-badge">⚡ Populaire</div>
+          <div class="plan-header">
+            <div class="plan-icon">⚡</div>
+            <h3 class="plan-name">Express</h3>
+            <p class="plan-desc">La vitesse avant tout</p>
+          </div>
+          <div class="plan-price">
+            <span class="price-amount">2 500</span>
+            <span class="price-unit">FCFA / livraison</span>
+          </div>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> Livraison en moins de 2 heures</li>
+            <li><span class="check">✓</span> Suivi GPS temps réel</li>
+            <li><span class="check">✓</span> Grand Dakar + banlieue</li>
+            <li><span class="check">✓</span> Jusqu'à 15 kg</li>
+            <li><span class="check">✓</span> Priorité livreur</li>
+            <li class="inactive"><span class="cross">✗</span> Support dédié</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Choisir Express</a>
+        </div>
+
+        <!-- PRO -->
+        <div class="pricing-card" data-animate="fade-up" data-delay="300">
+          <div class="plan-header">
+            <div class="plan-icon">🏢</div>
+            <h3 class="plan-name">Pro</h3>
+            <p class="plan-desc">Pour les entreprises &amp; e-commerçants</p>
+          </div>
+          <div class="plan-price">
+            <span class="price-amount">Sur devis</span>
+            <span class="price-unit">volume &amp; fréquence</span>
+          </div>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> Livraisons illimitées</li>
+            <li><span class="check">✓</span> Dashboard entreprise</li>
+            <li><span class="check">✓</span> Toute la région de Dakar</li>
+            <li><span class="check">✓</span> Poids illimité</li>
+            <li><span class="check">✓</span> Priorité livreur</li>
+            <li><span class="check">✓</span> Support dédié 24/7</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-plan">Nous contacter</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TESTIMONIALS ═══════════════ -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Témoignages</span>
+        <h2 class="section-title">Ils nous font confiance</h2>
+        <p class="section-desc">Plus de 1 200 avis 5 étoiles sur Google.</p>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card" data-animate="fade-up" data-delay="0">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">
+            "J'utilise LivrExpress chaque semaine pour ma boutique en ligne. Les délais sont respectés et mes clients sont toujours ravis. Je recommande à 100% !"
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:#1a73e8;">AF</div>
+            <div class="author-info">
+              <span class="author-name">Aminata Fall</span>
+              <span class="author-role">Gérante, Boutique Wax &amp; Style</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-animate="fade-up" data-delay="150">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">
+            "Livraison en 1h30 depuis Almadies jusqu'au Plateau. Le livreur était professionnel et le colis parfaitement intact. Service au top !"
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:#0f9d58;">OD</div>
+            <div class="author-info">
+              <span class="author-name">Ousmane Diallo</span>
+              <span class="author-role">Développeur indépendant</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-animate="fade-up" data-delay="300">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">
+            "Le suivi en temps réel est un vrai plus. Je sais exactement où est mon colis à chaque instant. Fini le stress des livraisons incertaines !"
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:#e8710a;">FN</div>
+            <div class="author-info">
+              <span class="author-name">Fatou Ndiaye</span>
+              <span class="author-role">Responsable achats, TechDakar</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CTA BAND ═══════════════ -->
+  <section class="cta-band" data-animate="fade-up">
+    <div class="container cta-inner">
+      <div>
+        <h2>Prêt à expédier votre premier colis ?</h2>
+        <p>Inscrivez-vous gratuitement et obtenez votre première livraison à -50%.</p>
+      </div>
+      <a href="#contact" class="btn btn-white btn-lg">
+        Démarrer maintenant
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo logo-white">
+          <span class="logo-icon">🚚</span>
+          <span class="logo-text">Livr<strong>Express</strong></span>
+        </a>
+        <p>La livraison rapide et fiable à Dakar. Votre colis, notre priorité.</p>
+        <div class="social-links">
+          <a href="#" class="social-btn" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.862L.057 23.5l5.763-1.511A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.653-.491-5.188-1.349l-.371-.221-3.422.897.914-3.329-.242-.383A9.955 9.955 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Twitter/X">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#how-it-works">Comment ça marche</a></li>
+          <li><a href="#pricing">Tarifs</a></li>
+          <li><a href="#testimonials">Témoignages</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul class="contact-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.37 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 5.09 5.09l.971-.971a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+221778001234">+221 77 800 12 34</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:contact@livrexpress.sn">contact@livrexpress.sn</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Plateau, Dakar, Sénégal</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 LivrExpress. Tous droits réservés.</p>
+        <div class="footer-legal">
+          <a href="#">Mentions légales</a>
+          <a href="#">Confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Retour en haut">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
